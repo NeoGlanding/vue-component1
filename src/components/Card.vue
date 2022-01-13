@@ -18,7 +18,7 @@ export default {
     data() {
         return {
             compData: 'Hello',
-            propsIsMan: trueOrFalse(this.isMan) 
+            propsIsMan: trueOrFalse(this.isMan),
         }
     },
     methods: {
