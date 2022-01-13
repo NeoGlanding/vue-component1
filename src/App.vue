@@ -1,15 +1,18 @@
 <template>
   <h1>Hello to Vue</h1>
   <Card is-man="1" name="Ihsan" school-class="12 TKJ 1" phone-number="08568881510" />
+  <Card2 :active="true" name="Jonas" />
 </template>
 
 <script>
 import Card from './components/Card.vue'
+import Card2 from './components/Card2.vue'
 
 export default {
   name: 'App',
   components: {
-    Card
+    Card,
+    Card2
   },
   methods: {
     getData(data) {
